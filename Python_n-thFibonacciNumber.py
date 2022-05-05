@@ -5,10 +5,10 @@ def Fibonacci(n):
     #The first two numbers in the fibonacci series are 0 and 1. If a number <= 0 an error message will be printed.
     if n<0: 
         print("Input must be greater than or equal to 0") 
-    # If n = 0, 0 will just be returned. 
+    # If n = 0, 0 will be returned. 
     elif n==0: 
         return (0) 
-    # If n = 1, 1 will just be returned. 
+    # If n = 1, 1 will be returned. 
     elif n==1: 
         return (1)
     else: 
